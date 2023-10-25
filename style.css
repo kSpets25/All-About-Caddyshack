@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5 { margin: 0; padding: 0; margin-bottom: 5px;}
     padding-left: 10px;   
 }
      
-.header .nav{
+.header .header__nav{
     display: flex;
     justify-content:space-evenly;
     gap: 20px;
@@ -33,22 +33,22 @@ h1, h2, h3, h4, h5 { margin: 0; padding: 0; margin-bottom: 5px;}
     padding-right: 10px;  
 }
 
-.nav__link {
+.header__nav-link {
     font-family: Helvetica, sans-serif, Arial;
     font-size: 24px;
     color: whitesmoke;
 }
 
-.nav__link:hover {
+.header__nav-link:hover {
     color:#637041;
 }
 
-.main-hero-banner__image{
+.main__hero-banner-image{
     width: 100%;
     height: auto;
 }
 
-.main-header__title {
+.main-article__title{
     display: block;
     text-align: center;
     font-family: Helvetica, sans-serif, Arial;
@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5 { margin: 0; padding: 0; margin-bottom: 5px;}
     padding-bottom: 8px;
 }
 
-.main__facts {
+.main-facts {
     width: 50%;
     border: 20px;
     padding: 10px;
@@ -86,13 +86,13 @@ h1, h2, h3, h4, h5 { margin: 0; padding: 0; margin-bottom: 5px;}
     word-wrap: normal; 
 }
 
-.main__facts__subheading {
+.main-facts__heading {
     font-size: 26px;
     text-align: center;
     padding-top: 10px;
 }
 
-.main__facts__subheading__fact {
+.main-facts__subheading{
     display: inline;
     line-height: 30px; 
     text-align: left; 
@@ -102,7 +102,7 @@ h1, h2, h3, h4, h5 { margin: 0; padding: 0; margin-bottom: 5px;}
     text-align: left; 
 }
 
-.main__facts__subheading__fact__text {
+.main-facts__paragraph {
     display: inline;
     line-height: 30px; 
     text-align: left; 
@@ -112,12 +112,12 @@ h1, h2, h3, h4, h5 { margin: 0; padding: 0; margin-bottom: 5px;}
     padding: 5px;   
 }
 
-.main__facts__subheading__fact__link {
+.main-facts__paragraph-link {
     font-size: 15px;
     color:#c04333;
 }
 
-.main__facts__subheading__fact__link:hover {
+.main-facts__paragraph-link:hover {
     font-size: 15px;
     color:#637041;
 }
