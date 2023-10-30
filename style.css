@@ -188,58 +188,8 @@ h1, h2, h3, h4, h5 { margin-bottom: 5px;
 
 }
 
+
 /* cast */
-h1, h2, h3, h4, h5 { margin-bottom: 5px;
-    font-family: Helvetica, Arial, sans-serif;
-
-}
-
-.body {
-    max-width: 1350px;
-    min-width: 576px; 
-    margin:24px auto;
-}
-
-.header {
-    display: flex;
-    flex-direction: row;
-    background-color:#c04333;
-    padding:10px;
-}
-
-.header__title {
-    
-    margin-right: auto;
-    font-family: Helvetica, sans-serif, Arial; 
-    font-size: 60px;
-    color: whitesmoke;
-    padding-left: 10px;   
-}
-     
-.header .header__nav{
-    display: flex;
-    justify-content:space-evenly;
-    gap: 20px;
-    float:right;
-    padding-top: 35px;
-    padding-right: 10px;  
-}
-
-.header__nav-link {
-    font-family: Helvetica, sans-serif, Arial;
-    font-size: 24px;
-    color: whitesmoke;
-}
-
-.header__nav-link:hover {
-    color:#637041;
-}
-
-.main__hero-banner-image{
-    width: 100%;
-    height: auto;
-}
-
 
 .cast-container {
     display: flex;
