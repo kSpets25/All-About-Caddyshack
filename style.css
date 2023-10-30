@@ -219,8 +219,8 @@ video {
     object-position: top;
 }
 
-.main-article__title--red {
-    color: red;
+.main-article__title--blue {
+    color: #489fd4;
 }
 
 @media (max-width: 768px){
