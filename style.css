@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5 { margin-bottom: 5px;
 .header {
     display: flex;
     flex-direction: row;
-    background-color:#c04333;
+    background-color:whitesmoke;
     padding:10px;
 }
 
@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5 { margin-bottom: 5px;
     margin-right: auto;
     font-family: Helvetica, sans-serif, Arial; 
     font-size: 60px;
-    color: whitesmoke;
+    color: #c04333;
     padding-left: 10px;   
 }
      
@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5 { margin-bottom: 5px;
 .header__nav-link {
     font-family: Helvetica, sans-serif, Arial;
     font-size: 24px;
-    color: whitesmoke;
+    color:#c04333;
 }
 
 .header__nav-link:hover {
@@ -222,5 +222,64 @@ h1, h2, h3, h4, h5 { margin-bottom: 5px;
     .cast-container__single-cast img {
         max-width: 100%;
         height: 900px;
+    }
+}
+
+/* Photos */
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 50%;
+    
+}
+
+.gopher{
+    width: 5%;
+    height: auto;
+    position: absolute;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-name: Run;
+    
+}
+
+@keyframes Run {
+    0%   {left:0px; top:0px; transform: scale(1);}
+    12%  {left:800px; top:23px; transform: scale(2);}
+    25%  {left:600px; top:100px;transform: scale(.5);}
+    37%  {left:250px; top:400px;transform: scale(.25);}
+    45%  {left:400px; top:37px; transform: scale(4);}
+    50%  {left:370px; top:690px;transform: scale(1);}
+    65%  {left:600px; top:1000px; }
+    75%  {left:10px; top:2000px; transform: scale(.25);}
+    82%  {left:550px; top:40px;}
+    94%  {left:790px; top:670px;transform: scale(4);}
+    100% {left:0px; top:0px;transform: scale(1);}
+}
+
+/*Quotes*/
+
+.quotes-list{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Footer*/
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    background-color:whitesmoke;
+    padding:10px;
+    justify-content: space-around;
+    font-family:Helvetica, Arial, sans-serif;
+    padding: 25px 0 ;
+}
+
+@media screen and (max-width:500px){
+    .footer{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
     }
 }
