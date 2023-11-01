@@ -226,13 +226,18 @@ h1, h2, h3, h4, h5 { margin-bottom: 5px;
 }
 
 /* Photos */
+.text_photos__intro {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .photo-gallery {
     display: flex;
     flex-direction: column-reverse;
     flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
+    align-items: center;
     width: 50%;
+    margin: 0 25%;
+    justify-content: space-between;
     
 }
 
@@ -262,13 +267,38 @@ h1, h2, h3, h4, h5 { margin-bottom: 5px;
 
 /*Quotes*/
 
-.quotes-list{
+.article_quotes{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.text_photos__intro{
+    margin: 20px;
+}
 .image_quotes__head{
     max-width: 10%;
     max-height: 10%;
+}
+
+.quotes_section{
+    max-width: 75%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.head_together{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.bullit_golf {
+    max-width: 10px;
+    max-height: 10px;
 }
 
 /*Footer*/
