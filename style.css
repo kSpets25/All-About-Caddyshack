@@ -286,6 +286,8 @@ h1, h2, h3, h4, h5 { margin-bottom: 5px;
     flex-direction: column;
     align-items: center;
     padding: 10px;
+    font-size: 130%;
+    text-align: center;
 }
 
 .head_together{
@@ -307,16 +309,21 @@ h1, h2, h3, h4, h5 { margin-bottom: 5px;
     display: flex;
     flex-direction: row;
     background-color:#c04333;
+    color: whitesmoke;
     padding:10px;
     justify-content: space-around;
     font-family:Helvetica, Arial, sans-serif;
     padding: 25px 0 ;
 }
 
+.footer_link:visited{
+    color: whitesmoke;
+}
 @media screen and (max-width:500px){
     .footer{
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
+        
     }
 }
