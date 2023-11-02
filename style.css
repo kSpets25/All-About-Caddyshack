@@ -7,7 +7,7 @@ img {width: 100%;
 }
 
 h1, h2, h3, h4, h5 { margin-bottom: 5px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif, Helvetica;
 
 }
 
@@ -333,7 +333,7 @@ a {
     background-color:whitesmoke;
     padding:10px;
     justify-content: space-around;
-    font-family:Helvetica, Arial, sans-serif;
+    font-family:'Lato', sans-serif, Helvetica;
     padding: 25px 0;
     color: #c04333;
 }
