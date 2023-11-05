@@ -19,7 +19,7 @@ We lost the assistance of one team member on the project.
 
 Coordinating the css code using BEM naming was a challenge for all of us.  The team worked hard to create the BEM classess for their tags and elements and incorporate those in the css file.
 
- When the repository page was deployed some photos were not showing up on the photos page.  There was a capital P letter in the photos file name which clashed with the photos page image/file name.  An attempt was made to rename the main image file in the repository but without success.  So, the individual file names in the html were changed to match so the images were visible.
+ When the repository page was deployed some photos were not showing up on the photos page. This was resolved and the page was up and running.
 
  The repository page was checked with lighthouse, with excellent results, and for responsiveness.
 
