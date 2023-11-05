@@ -252,10 +252,14 @@ a {
     
 }
 
+
 /* Photos */
 .text_photos__intro {
     font-family:'Lato', sans-serif, Helvetica;
     font-size: 150%;
+    background-color: #c38e59;
+    padding: 10px;
+    text-align: center;
 }
 
 .photo-gallery {
@@ -314,6 +318,17 @@ a {
     margin: 6%;
     background-color: whitesmoke;
     border-radius: 20px;
+}
+
+.text_quotes__intro {
+    background-color:#c38e59;
+    padding: 20px;
+}
+
+.text_quotes__notable {
+   background-color:#637041;
+   padding: 10px;
+   text-align: center;
 }
 
 .quotes_section{
